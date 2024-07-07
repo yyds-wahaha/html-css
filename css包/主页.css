@@ -1,0 +1,420 @@
+.total {
+    width: 1500px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 导航栏 */
+.header {
+    height: 129px;
+    width: 1500px;
+    background-color: rgb(213, 213, 213);
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+}
+
+.nav li {
+    list-style: none;
+    float: left;
+}
+
+.logo {
+    float: left;
+    width: 128px;
+    height: 127px;
+}
+
+.nav {
+    float: left;
+    margin-left: 300px;
+}
+
+.nav ul li a {
+    display: block;
+    margin-left: 30px;
+    padding: 30px;
+    font-size: 28px;
+    color: #000;
+    font-family: '微软雅黑';
+}
+
+.nav ul li a:hover {
+    background-color: rgb(120, 120, 120);
+}
+
+
+/*  */
+.shouye {
+    height: auto;
+    width: 1500px;
+    background-color: rgb(255, 255, 255);
+}
+
+.kong {
+    height: 122px;
+    width: auto;
+}
+
+.banner {
+    height: auto;
+    width: auto;
+    margin-left: 65px;
+}
+
+.prev {
+    float: left;
+    background-color: rgb(104, 104, 104);
+    color: rgb(252, 252, 252);
+    font-size: 40px;
+    padding-top: 250px;
+    padding-left: 10px;
+    height: 350px;
+    width: 50px;
+}
+
+.next {
+    float: right;
+    background-color: rgb(105, 105, 105);
+    color: rgb(252, 252, 252);
+    font-size: 40px;
+    margin-right: 115px;
+    padding-top: 250px;
+    padding-left: 10px;
+    height: 350px;
+    width: 50px;
+}
+
+.AI {
+    height: 110px;
+    width: auto;
+    margin-top: 5px;
+    background-color: rgb(228, 228, 228);
+}
+
+.AI a {
+    display: block;
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 600px;
+    font-size: 30px;
+    border: solid;
+    border-color: rgb(59, 58, 58);
+    border-width: 5px;
+    border-radius: 10px;
+    padding-left: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(148, 0, 0);
+}
+
+.c-center {
+    margin-top: 10px;
+    height: 850px;
+    background-color: chocolate;
+}
+
+.c0 {
+    z-index: 1;
+    position: absolute;
+}
+
+.c1 {
+    z-index: 2;
+    left: 100px;
+    top: 900px;
+    position: absolute;
+}
+
+.c3 {
+    z-index: 2;
+    left: 400px;
+    top: 900px;
+    position: absolute;
+}
+
+.c4 {
+    z-index: 2;
+    left: 700px;
+    top: 900px;
+    position: absolute;
+}
+
+.c2 {
+    z-index: 2;
+    left: 1000px;
+    top: 900px;
+    position: absolute;
+}
+
+.c-big1 {
+    z-index: 2;
+    left: 100px;
+    top: 1200px;
+    position: absolute;
+}
+
+.c-big2 {
+    z-index: 2;
+    left: 550px;
+    top: 1200px;
+    position: absolute;
+}
+
+.c-a {
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    font-size: 40px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 5px;
+    background-color: whitesmoke;
+    color: brown;
+    z-index: 2;
+    padding-left: 60px;
+    padding-top: 20px;
+    left: 600px;
+    top: 1610px;
+    position: absolute;
+}
+
+.center-classify {
+    margin-left: 200px;
+    margin-top: 5px;
+    height: 170px;
+    background-color: #ffffff;
+}
+
+.classify-top {
+    margin-top: 10px;
+    height: 25px;
+    background-color: rgb(227, 227, 227);
+}
+
+.classify {
+    height: 600px;
+    background-color: rgb(227, 227, 227);
+}
+
+.season {
+    height: 180px;
+}
+
+.season-s {
+    display: inline-block;
+    border-style: solid;
+    font-size: 35px;
+    background-color: #3bafc6;
+    height: 130px;
+    width: 300px;
+    color: #ffffffab;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
+    border-radius: 30px;
+}
+
+.sence_right {
+    float: right;
+    border-style: solid;
+    font-size: 40px;
+    background-color: #bda452;
+    height: 220px;
+    width: 180px;
+    color: #ffffffab;
+    margin-right: 65px;
+    padding-top: 110px;
+    padding-left: 60px;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+.sence {
+    height: 150px;
+    margin-top: 10px;
+}
+
+.sence-s {
+    display: inline-block;
+    border-style: solid;
+    font-size: 50px;
+    background-color: #bda452;
+    height: 110px;
+    width: 350px;
+    color: #ffffffab;
+    margin-left: 25px;
+    padding-top: 30px;
+    padding-left: 200px;
+    border-width: 6px;
+    border-radius: 5px;
+}
+
+.people {
+    height: 200px;
+    margin-top: 15px;
+}
+
+.people-s {
+    display: inline-block;
+    white-space: pre-wrap;
+    border-style: solid;
+    font-size: 30px;
+    background-color: #417361;
+    height: 150px;
+    width: 200px;
+    color: #ffffffab;
+    margin-left: 20px;
+    padding-left: 120px;
+    padding-top: 60px;
+    border-radius: 20px;
+    border-width: 5px;
+}
+
+.shangpin {
+    height: 600px;
+    width: auto;
+    background-color: rgb(53, 48, 48);
+}
+
+.shangpin-top {
+    height: 80px;
+    width: auto;
+    background-color: rgb(139, 33, 33);
+    font-size: 30px;
+    font-family: '微软雅黑';
+}
+
+.shangpin li {
+    list-style: none;
+    float: left;
+}
+
+.word-left {
+    color: #d6d5d5;
+    line-height: 80px;
+    text-indent: 100px;
+}
+
+.word-right {
+    margin-left: 800px;
+    margin-top: 15px;
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
+}
+
+.shangpin-mid {
+    list-style: none;
+}
+
+.pin {
+    float: left;
+    background-color: brown;
+    margin: 30px;
+    height: 350px;
+    width: 280px;
+}
+
+.shangpin-bottom {
+    height: 80px;
+    width: 1500px;
+    margin-top: 420px;
+    background-color: brown;
+    color: #ffffff;
+}
+
+.shangpin-bottom p {
+    padding-top: 20px;
+    padding-left: 600px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 最底下标签 */
+.bottom {
+    margin-top: 0px;
+    height: 50px;
+    width: 1500px;
+    background-color: #3b3b3b;
+}
+
+.bottom p {
+    text-indent: 600px;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    padding-top: 10px;
+    color: whitesmoke;
+}
+
+/* 图片大小 */
+
+.shouye1 {
+    height: 600px;
+    width: 1200px;
+}
+
+.beijing2 {
+    height: 850px;
+    width: 1500px;
+}
+
+.dz1 {
+    height: 300px;
+    width: 300px;
+}
+
+.dz3 {
+    height: 300px;
+    width: 300px;
+}
+
+.dz4 {
+    height: 300px;
+    width: 300px;
+}
+
+.dz2 {
+    height: 700px;
+    width: 400px;
+}
+
+.dz-big1 {
+    height: 400px;
+    width: 450px;
+}
+
+.dz-big2 {
+    height: 400px;
+    width: 450px;
+}
+
+.yishuzi {
+    height: 180px;
+    width: 1100px;
+}
+
+.pin1 {
+    height: 350px;
+    width: 280px;
+}
+
+.pin2 {
+    height: 350px;
+    width: 280px;
+}
+
+.pin3 {
+    height: 350px;
+    width: 280px;
+}
+
+.pin4 {
+    height: 350px;
+    width: 280px;
+}

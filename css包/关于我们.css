@@ -1,0 +1,88 @@
+.total {
+    width: 1500px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 导航栏 */
+.header {
+    height: 129px;
+    width: 1500px;
+    background-color: rgb(213, 213, 213);
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+}
+
+.nav li {
+    list-style: none;
+    float: left;
+}
+
+.logo {
+    float: left;
+    width: 128px;
+    height: 127px;
+}
+
+.nav {
+    float: left;
+    margin-left: 300px;
+}
+
+.nav ul li a {
+    display: block;
+    margin-left: 30px;
+    padding: 30px;
+    font-size: 28px;
+    color: #000;
+    font-family: '微软雅黑';
+}
+
+.nav ul li a:hover {
+    background-color: rgb(120, 120, 120);
+}
+
+.nav ul li a:hover {
+    background-color: rgb(120, 120, 120);
+}
+
+/*  */
+.backphoto {
+    height: 850px;
+    width: 1500px;
+}
+
+.beijing {
+    height: 650px;
+    width: 1500px;
+}
+
+.word {
+    position: absolute;
+    z-index: 99999;
+    font-size: 25px;
+    font-family: '微软雅黑';
+    left: 40px;
+    top: 130px;
+}
+
+.bottom {
+    margin-top: 0px;
+    height: 50px;
+    width: 1500px;
+    background-color: #3b3b3b;
+}
+
+.bottom p {
+    text-indent: 600px;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    padding-top: 10px;
+    color: whitesmoke;
+}

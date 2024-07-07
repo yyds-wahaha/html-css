@@ -1,0 +1,109 @@
+.total {
+    width: 1500px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 导航栏 */
+.header {
+    height: 129px;
+    width: 1500px;
+    background-color: rgb(213, 213, 213);
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+}
+
+.nav li {
+    list-style: none;
+    float: left;
+}
+
+.logo {
+    float: left;
+    width: 128px;
+    height: 127px;
+}
+
+.nav {
+    float: left;
+    margin-left: 300px;
+}
+
+.nav ul li a {
+    display: block;
+    margin-left: 30px;
+    padding: 30px;
+    font-size: 28px;
+    color: #000;
+    font-family: '微软雅黑';
+}
+
+.nav ul li a:hover {
+    background-color: rgb(120, 120, 120);
+}
+
+/* 主页 */
+.word {
+    height: 80px;
+    background-color: rgb(255, 245, 203);
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 140px;
+    text-indent: 100px;
+    font-size: 32px;
+    padding-top: 24px;
+    padding-left: 40px;
+    color: #4d3513;
+}
+
+.plus {
+    margin-top: 10px;
+    margin-left: 600px;
+}
+
+label {
+    display: block;
+    width: 150px;
+    height: 60px;
+    background-color: rgb(162, 48, 48);
+    color: black;
+    font-size: 25px;
+    margin-left: 660px;
+    margin-top: 10px;
+    padding-left: 45px;
+    padding-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input {
+    display: none;
+}
+
+/* 最底下标签 */
+.bottom {
+    margin-top: 0px;
+    height: 50px;
+    width: 1500px;
+    background-color: #3b3b3b;
+}
+
+.bottom p {
+    text-indent: 600px;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    padding-top: 10px;
+    color: whitesmoke;
+}
+
+/* 图片大小 */
+.bg {
+    width: 300px;
+    height: 320px;
+}
